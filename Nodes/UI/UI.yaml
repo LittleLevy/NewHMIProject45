@@ -82,3 +82,30 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 188.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 104.0
